@@ -1,0 +1,101 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 135px;
+}
+
+.contactsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-bottom: 1px solid #EDEDF4;
+    padding: 40px 0;
+    text-align: left;
+}
+
+.contactsContainer p {
+    color: #676A71;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    margin: 0;
+}
+
+.contactsContainer h1 {
+    color: #272A33;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.companyNameAndLogo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo {
+    width: 148px;
+    height: 40px;
+}
+
+.support {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.connectSupport {
+    text-decoration: none;
+    color: #13A3B9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.partnersContainer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EDEDF4;
+    padding: 40px 0;
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    color: #A8AAAE;
+
+}
+
+.name {
+    background-color: #EDEDF4;
+    padding: 11px 14px;
+    border-radius: 5px;
+}
+
+.infoContainer {
+    color: #A7B4CC;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+}

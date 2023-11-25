@@ -1,0 +1,35 @@
+.personalAccountContainer {
+    margin: 0 135px;
+    padding-top: 55px;
+    text-align: left;
+}
+
+h1  {
+    color: #272A33;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.linkToMain {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center;
+}
+
+.linkBack, .linkProfile {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #676A71;
+    margin-left: 10px;
+}
+
+.linkProfile {
+    color: black;
+}

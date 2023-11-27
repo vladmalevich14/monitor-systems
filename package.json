@@ -1,5 +1,6 @@
 {
   "name": "client",
+  "homepage": "https://vladmalevich14.github.io/monitor-systems",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -22,9 +23,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
+    "gh-pages": "^6.1.0",
     "typescript": "^5.3.2"
   }
 }

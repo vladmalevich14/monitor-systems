@@ -40,7 +40,9 @@ const router = createBrowserRouter([
             },
         ],
     },
-])
+], {
+    basename: '/monitor-systems',
+})
 
 export const Router = () => {
     return <RouterProvider router={router}/>

@@ -1,6 +1,7 @@
+import React from 'react';
 import s from "components/user/userForm/user-info-form.module.css";
 import {useState} from "react";
-import {Input} from "components/common/input/input";
+import {Input} from "../../common/input/input";
 
 export const Password = () => {
     const [disabledInput, setDisabledInput] = useState<boolean>(true)

@@ -1,3 +1,4 @@
+import React from 'react';
 import {Input} from "components/common/input/input";
 import s from 'components/user/userForm/user-info-form.module.css'
 

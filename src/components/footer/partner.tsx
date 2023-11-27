@@ -1,4 +1,5 @@
-import s from 'components/footer/footer.module.css'
+import React from 'react';
+import s from './footer.module.css'
 
 type PropsType = {
     logo?: string

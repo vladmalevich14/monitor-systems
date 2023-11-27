@@ -14,6 +14,11 @@
     height: 40px;
 }
 
+.avatar {
+    height: 45px;
+    width: 45px;
+}
+
 .linksContainer {
     display: flex;
     gap: 20px;

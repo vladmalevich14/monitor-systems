@@ -1,6 +1,7 @@
-import {PersonalInformation} from "components/user/userForm/personal-information";
-import {Contacts} from "components/user/userForm/contacts";
-import {Password} from "components/user/userForm/password";
+import React from 'react';
+import {PersonalInformation} from "../userForm/personal-information";
+import {Contacts} from "../userForm/contacts";
+import {Password} from "../userForm/password";
 import s from 'components/user/userForm/user-info-form.module.css'
 
 export const UserInfoForm = () => {

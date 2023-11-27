@@ -1,0 +1,54 @@
+.tableFilterContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameTable {
+    color: #6E7686;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.radioGroupContainer {
+    display: flex;
+    gap: 10px;
+    color: #A8AAAE;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.radioGroup {
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.item {
+    display: inline-block;
+    float: left;
+    color: #6E7686;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #13A3B9;
+    border-radius: 5px;
+}
+
+.radioGroup input[type=radio] {
+    display: none;
+}
+
+.radioGroup label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 10px 1px;
+    user-select: none;
+}
+
+.radioGroup input[type=radio]:checked + label {
+    color: white;
+    background-color: #13A3B9;
+}
+
+.radioGroup label:hover {
+    color: #666;
+}

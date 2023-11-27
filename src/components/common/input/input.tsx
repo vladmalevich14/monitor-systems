@@ -1,3 +1,4 @@
+import React from 'react';
 import {ChangeEvent, useState} from "react";
 import searchIcon from '../../assets/svg/search.svg'
 import s from './input.module.css'

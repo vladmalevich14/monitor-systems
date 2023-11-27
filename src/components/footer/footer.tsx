@@ -1,7 +1,8 @@
-import Bank from 'components/assets/svg/bank.svg'
-import Logo from 'components/assets/svg/logo.svg'
-import s from 'components/footer/footer.module.css'
-import {Partner} from "components/footer/partner";
+import React from 'react';
+import Bank from '../assets/svg/bank.svg'
+import Logo from '../assets/svg/logo.svg'
+import s from './footer.module.css'
+import {Partner} from "./partner";
 
 export const Footer = () => {
     return (

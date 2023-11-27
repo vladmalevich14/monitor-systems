@@ -1,15 +1,16 @@
+import React from 'react';
 import s from './user.module.css'
 import ArrowLeft from "components/assets/svg/arrow-left.svg";
 import ArrowLeftBlack from "components/assets/svg/arrow-left-black.svg";
 import Avatar from "components/assets/svg/avatar.svg";
-import {UserInfoForm} from "components/user/userForm/user-info-form";
+import {UserInfoForm} from "./userForm/user-info-form";
 
 export const User = () => {
     return <div className={s.userContainer}>
         <div className={s.linkToMain}>
             <div className={s.linkContainer}>
                 <img src={ArrowLeft} alt="arrow left"/>
-                <a href="#" className={s.linkBack}>Главная</a>
+                <a href="/account" className={s.linkBack}>Главная</a>
             </div>
 
             <div className={s.linkContainer}>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/monitor-systems/static/css/main.a9397817.css",
-    "main.js": "/monitor-systems/static/js/main.fe812467.js",
+    "main.js": "/monitor-systems/static/js/main.f2bfd614.js",
     "static/js/787.d5fa4d18.chunk.js": "/monitor-systems/static/js/787.d5fa4d18.chunk.js",
     "static/media/bank.svg": "/monitor-systems/static/media/bank.14c710c3a19e1eba3114fcec76500574.svg",
     "static/media/logo.svg": "/monitor-systems/static/media/logo.5a898d041664074903510cacdbc12b1b.svg",
@@ -28,11 +28,11 @@
     "index.html": "/monitor-systems/index.html",
     "static/media/avatar.svg": "/monitor-systems/static/media/avatar.9109820838beb44709faafd84cc4b76a.svg",
     "main.a9397817.css.map": "/monitor-systems/static/css/main.a9397817.css.map",
-    "main.fe812467.js.map": "/monitor-systems/static/js/main.fe812467.js.map",
+    "main.f2bfd614.js.map": "/monitor-systems/static/js/main.f2bfd614.js.map",
     "787.d5fa4d18.chunk.js.map": "/monitor-systems/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9397817.css",
-    "static/js/main.fe812467.js"
+    "static/js/main.f2bfd614.js"
   ]
 }

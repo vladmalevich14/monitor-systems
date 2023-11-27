@@ -16,14 +16,6 @@ const publicRoutes: RouteObject[] = [
     {
         path: '/',
         element: <Login/>,
-    },
-    {
-        path: '/account',
-        element: <PersonalAccount />,
-    },
-    {
-        path: '/user',
-        element: <User />,
     }
 ]
 
@@ -36,14 +28,14 @@ const router = createBrowserRouter([
             {
                 element: <PrivateRoutes/>,
                 children: [
-                    // {
-                    //     path: '/account',
-                    //     element: <PersonalAccount />,
-                    // },
-                    // {
-                    //     path: '/user',
-                    //     element: <User />,
-                    // }
+                    {
+                        path: '/account',
+                        element: <PersonalAccount />,
+                    },
+                    {
+                        path: '/user',
+                        element: <User />,
+                    }
                 ],
             },
         ],
